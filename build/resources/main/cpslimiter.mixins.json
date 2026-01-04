@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "net.example.cpslimiter.mixin",
+  "compatibilityLevel": "JAVA_21",
+"client": [
+    "CpsLimiterMixin",
+    "EntityRendererMixin",
+    "PlayerEntityRenderStateMixin",
+    "PlayerEntityRendererMixin",
+    "MouseMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
